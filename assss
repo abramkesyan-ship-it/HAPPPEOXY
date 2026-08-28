@@ -1,2 +1,9 @@
 hysteria2://3474f38b-3857-4087-af08-76b82bc23620@pl.i-love-russia.online:443/?sni=pl.i-love-russia.online&alpn=h3#🇵🇱 Польша | Hysteria
 vless://3474f38b-3857-4087-af08-76b82bc23620@friendlynode.site:443?type=ws&path=%2Fstream%2F751394%2Fsocket&host=friendlynode.site&security=tls&sni=friendlynode.site&fp=firefox&alpn=http%2F1.1#🇫🇮 Белые списки 1
+vless://3474f38b-3857-4087-af08-76b82bc23620@ru.i-love-russia.online:443?type=tcp&security=reality&pbk=ThYiOQmlRYp3vrb_MAshWmjSxwOOYcstJusgIiiopHY&sid=1b4e086bf0a1b1f4&fp=firefox&flow=xtls-rprx-vision&sni=ru.i-love-russia.online#🇷🇺 Россия
+hysteria2://caf47a37-e800-40cd-bcc3-79a3bed83c72@freeshka.i-love-russia.online:443/?sni=freeshka.i-love-russia.online&alpn=h3#🇳🇱 Нидерланды | 2
+hysteria2://caf47a37-e800-40cd-bcc3-79a3bed83c72@pahab.i-love-russia.online:443/?sni=pahab.i-love-russia.online&alpn=h3#🇳🇱 Нидерланды | 4
+vless://3474f38b-3857-4087-af08-76b82bc23620@hk.i-love-russia.online:443?type=tcp&security=reality&pbk=ThYiOQmlRYp3vrb_MAshWmjSxwOOYcstJusgIiiopHY&sid=1b4e086bf0a1b1f4&fp=firefox&flow=xtls-rprx-vision&sni=hk.i-love-russia.online#🇭🇰 Гонконг
+vless://3474f38b-3857-4087-af08-76b82bc23620@ca.i-love-russia.online:443?type=tcp&security=reality&pbk=ThYiOQmlRYp3vrb_MAshWmjSxwOOYcstJusgIiiopHY&sid=1b4e086bf0a1b1f4&fp=firefox&flow=xtls-rprx-vision&sni=ca.i-love-russia.online#🇨🇦 Канада
+vless://3474f38b-3857-4087-af08-76b82bc23620@friendlynode.ru:443?type=xhttp&mode=auto&path=%2Fapi%2Fv2%2F2aff7e3e&host=friendlynode.ru&security=tls&sni=friendlynode.ru&fp=firefox&alpn=h2%2Chttp%2F1.1#🇩🇪 Белые списки 3
+hysteria2://3474f38b-3857-4087-af08-76b82bc23620@ee.i-love-russia.online:443/?sni=ee.i-love-russia.online&alpn=h3#🇪🇪 Эстония | Hysteria
