@@ -1,6 +1,7 @@
-hysteria2://2882-27282-2727-272828flow=xtls-rprx-vision# Впн делал: @Tuink
-hysteria2://2882-27282-2727-272828flow=xtls-rprx-vision# Мопсик легенда
+socks://2882-27282-2727-272828flow=xtls-rprx-vision# Впн делал: @Tuink
+socks://2882-27282-2727-272828flow=xtls-rprx-vision# Мопсик легенда
 vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@mortardapplebirch.kilnworkshop.info:443?type=tcp&security=reality&pbk=hHor6jajmC4pqV1HSOHypVaMiE9xn8qBoE_oSO-c5x0&fp=firefox&sni=mortardapplebirch.kilnworkshop.info&sid=a0c58a106301b783&flow=xtls-rprx-vision#🇷🇺 Россия
+hysteria2://31cec69f-576b-4328-92bd-61536e810592@46.8.210.152:8443?sni=disk.api-yandex.net&alpn=h3#🇷🇺 Россия скоростная
 vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@ja2jas.jetstoreapp.ru:443?type=xhttp&security=tls&sni=ja2jas.jetstoreapp.ru&fp=firefox&alpn=h2,http/1.1&path=/static/data/blocks/&host=ja2jas.jetstoreapp.ru&mode=packet-up&extra={"path":"/static/data/blocks/","xmux":{"cMaxLifetimeMs":0,"cMaxReuseTimes":"0","maxConcurrency":"16-32","maxConnections":0,"hKeepAlivePeriod":30,"hMaxRequestTimes":"600-900","hMaxReusableSecs":"1800-3000"},"uplinkHTTPMethod":"GET"}#🇩🇪 Германия НЕ РАБОТАЕТ
 vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@charredrelatedfoam.falloworchard.com:443?type=tcp&security=reality&pbk=jp5PkSh099NYT4PM8-tPErUja-u1S1PFSqYoxhQgZmo&fp=firefox&sni=charredrelatedfoam.falloworchard.com&sid=d97ed991ca4d52df&flow=xtls-rprx-vision#🇱🇻 Латвия
 vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@charredrelatedfoam.falloworchard.com:443?type=tcp&security=reality&pbk=jp5PkSh099NYT4PM8-tPErUja-u1S1PFSqYoxhQgZmo&fp=firefox&sni=charredrelatedfoam.falloworchard.com&sid=d97ed991ca4d52df&flow=xtls-rprx-vision#🇯🇵 Япония
@@ -44,13 +45,14 @@ hysteria2://3474f38b-3857-4087-af08-76b82bc23620@pl.i-love-russia.online:443/?sn
 hysteria2://31cec69f-576b-4328-92bd-61536e810592@46.8.210.129:28443?sni=disk.api-yandex.net&alpn=h3#🇵🇱 Польша Hysteria 2
 hysteria2://3474f38b-3857-4087-af08-76b82bc23620@pl.i-love-russia.online:443?sni=pl.i-love-russia.online#🇵🇱 Польша Hysteria 3
 hysteria2://3474f38b-3857-4087-af08-76b82bc23620@tr.i-love-russia.online:443?sni=tr.i-love-russia.online#🇪🇪 Эстония Hysteria
+hy2://31cec69f-576b-4328-92bd-61536e810592@46.8.208.33:27443?sni=disk.api-yandex.net&alpn=h3#🇪🇪 Эстония Hysteria 2
 vless://31cec69f-576b-4328-92bd-61536e810592@191.44.94.12:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nlbr.api-yandex.net&fp=qq&pbk=86QxRUvBk3_xNQqwHoyW2MrkNm9eEhbR2uirSnWHkW4&sid=6f4dacf88292e06f#🇪🇺 Европа
 hysteria2://3474f38b-3857-4087-af08-76b82bc23620@freeshka.i-love-russia.online:443?sni=freeshka.i-love-russia.online#🇳🇱 Нидерланды Hysteria
 hysteria2://caf47a37-e800-40cd-bcc3-79a3bed83c72@freeshka.i-love-russia.online:443/?sni=freeshka.i-love-russia.online&alpn=h3#🇳🇱 Нидерланды Hysteria 2
 hysteria2://31cec69f-576b-4328-92bd-61536e810592@46.8.209.73:22443?sni=disk.api-yandex.net&alpn=h3&insecure=0#🇳🇴 Норвегия Обход глушилок
+vless://31cec69f-576b-4328-92bd-61536e810592@201.7.25.208:443?type=tcp&security=reality&pbk=VfyS9hoKlYU2l3oZ-T6RN2JzjWgtrIC7-VjseHCeBGE&fp=qq&sni=ee.api-yandex.net&sid=0f4dacf33211e04f&flow=xtls-rprx-vision#🇪🇪 Эстония Обход глушилок
 vless://31cec69f-576b-4328-92bd-61536e810592@179.254.84.12:443?type=tcp&security=reality&pbk=I4lUR4e9kgCZUY_yd2vY_nOcLw0B-e-CNOQxgBgAJn8&fp=qq&sni=pl.api-yandex.net&sid=0f4dacf88252e05f&flow=xtls-rprx-vision#🇵🇱 Польша Обход глушилок
 hysteria2://31cec69f-576b-4328-92bd-61536e810592@46.8.209.74:23443?sni=disk.api-yandex.net&alpn=h3#🇪🇺 Европа Обход глушилок
-vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@178.248.236.77:62443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4&fp=qq&sni=rutube.ru&sid=1f8c1a2e913d1f05&spx=%2F#🇦🇷 Белые артурики
-vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@178.248.236.77:62443?type=tcp&security=reality&pbk=IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4&fp=qq&sni=rutube.ru&sid=1f8c1a2e913d1f05&spx=%2F&flow=xtls-rprx-vision#🇮🇲 Чи́крыжка
-vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@2.26.128.74:443?type=tcp&security=reality&pbk=w88Ys8dVF9DuslGwUD05J9-FHNoAT9qmPysCvHiEmmg&fp=qq&sni=wombat.mycdn-me.ru&sid=1b40e7c2a1d8f635&spx=%2F&flow=xtls-rprx-vision#🇵🇰 Табулистан 
+vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@178.248.236.77:62443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4&fp=qq&sni=rutube.ru&sid=1f8c1a2e913d1f05&spx=%2F#🇦🇷 Белые списки
+vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@178.248.236.77:62443?type=tcp&security=reality&pbk=IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4&fp=qq&sni=rutube.ru&sid=1f8c1a2e913d1f05&spx=%2F&flow=xtls-rprx-vision#🇮🇲 Белые списки 2 
 vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@195.82.146.182:6437?type=grpc&security=reality&pbk=pHQke94AM1SmUNRlA7CNyXL4dK9-O1mTZoNVJKVFTk0&fp=chrome&sni=tesla.com&sid=1dbf8a58bc15d4b0&serviceName=grpc#🇫🇲 Чехословакия
