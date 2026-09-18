@@ -1,4 +1,4 @@
-trojan://password123@sub.domain.com:443?security=tls&sni=sub.domain.com&type=tcp# Впн делал: @Tuink
+socks://<base64_user_pass>@1.2.3.4:443#Впн делал: @Tuink
 wireguard://aGVsbG93b3JsZDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTI=@198.51.100.1:51820?address=10.0.0.2%2F32&publickey=dGVzdHB1YmxpY2tleTEyMzQ1Njc4OTAxMjM0NTY3ODkwMQ==&mtu=1420&reserved=0%2C0%2C0# Мопсик легенда
 vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@mortardapplebirch.kilnworkshop.info:443?type=tcp&security=reality&pbk=hHor6jajmC4pqV1HSOHypVaMiE9xn8qBoE_oSO-c5x0&fp=firefox&sni=mortardapplebirch.kilnworkshop.info&sid=a0c58a106301b783&flow=xtls-rprx-vision#🇷🇺 Россия
 hysteria2://31cec69f-576b-4328-92bd-61536e810592@46.8.210.152:8443?sni=disk.api-yandex.net&alpn=h3#🇷🇺 Россия скоростная
