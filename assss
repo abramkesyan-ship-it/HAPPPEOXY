@@ -47,7 +47,7 @@ hysteria2://3474f38b-3857-4087-af08-76b82bc23620@tr.i-love-russia.online:443?sni
 vless://31cec69f-576b-4328-92bd-61536e810592@191.44.94.12:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nlbr.api-yandex.net&fp=qq&pbk=86QxRUvBk3_xNQqwHoyW2MrkNm9eEhbR2uirSnWHkW4&sid=6f4dacf88292e06f#🇪🇺 Европа
 hysteria2://3474f38b-3857-4087-af08-76b82bc23620@freeshka.i-love-russia.online:443?sni=freeshka.i-love-russia.online#🇳🇱 Нидерланды Hysteria
 hysteria2://caf47a37-e800-40cd-bcc3-79a3bed83c72@freeshka.i-love-russia.online:443/?sni=freeshka.i-love-russia.online&alpn=h3#🇳🇱 Нидерланды Hysteria 2
-hysteria2://31cec69f-576b-4328-92bd-61536e810592@46.8.209.73:22443?sni=disk.api-yandex.net&alpn=h3&insecure=0#🇳🇴 Обход глушилок
+hysteria2://31cec69f-576b-4328-92bd-61536e810592@46.8.209.73:22443?sni=disk.api-yandex.net&alpn=h3&insecure=0#🇳🇴 Норвегия Обход глушилок
 vless://31cec69f-576b-4328-92bd-61536e810592@179.254.84.12:443?type=tcp&security=reality&pbk=I4lUR4e9kgCZUY_yd2vY_nOcLw0B-e-CNOQxgBgAJn8&fp=qq&sni=pl.api-yandex.net&sid=0f4dacf88252e05f&flow=xtls-rprx-vision#🇵🇱 Польша Обход глушилок
 hysteria2://31cec69f-576b-4328-92bd-61536e810592@46.8.209.74:23443?sni=disk.api-yandex.net&alpn=h3#🇪🇺 Европа Обход глушилок
 vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@178.248.236.77:62443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4&fp=qq&sni=rutube.ru&sid=1f8c1a2e913d1f05&spx=%2F#🇦🇷 Белые артурики
