@@ -1,5 +1,5 @@
-trojan://2882-27282-2727-272828flow=xtls-rprx-vision# Впн делал: @Tuink
-trojan://2882-27282-2727-272828flow=xtls-rprx-vision# Мопсик легенда
+trojan://password123@sub.domain.com:443?security=tls&sni=sub.domain.com&type=tcp# Впн делал: @Tuink
+wireguard://aGVsbG93b3JsZDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTI=@198.51.100.1:51820?address=10.0.0.2%2F32&publickey=dGVzdHB1YmxpY2tleTEyMzQ1Njc4OTAxMjM0NTY3ODkwMQ==&mtu=1420&reserved=0%2C0%2C0# Мопсик легенда
 vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@mortardapplebirch.kilnworkshop.info:443?type=tcp&security=reality&pbk=hHor6jajmC4pqV1HSOHypVaMiE9xn8qBoE_oSO-c5x0&fp=firefox&sni=mortardapplebirch.kilnworkshop.info&sid=a0c58a106301b783&flow=xtls-rprx-vision#🇷🇺 Россия
 hysteria2://31cec69f-576b-4328-92bd-61536e810592@46.8.210.152:8443?sni=disk.api-yandex.net&alpn=h3#🇷🇺 Россия скоростная
 vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@ja2jas.jetstoreapp.ru:443?type=xhttp&security=tls&sni=ja2jas.jetstoreapp.ru&fp=firefox&alpn=h2,http/1.1&path=/static/data/blocks/&host=ja2jas.jetstoreapp.ru&mode=packet-up&extra={"path":"/static/data/blocks/","xmux":{"cMaxLifetimeMs":0,"cMaxReuseTimes":"0","maxConcurrency":"16-32","maxConnections":0,"hKeepAlivePeriod":30,"hMaxRequestTimes":"600-900","hMaxReusableSecs":"1800-3000"},"uplinkHTTPMethod":"GET"}#🇩🇪 Германия НЕ РАБОТАЕТ
