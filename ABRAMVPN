@@ -1,46 +1,139 @@
-vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@ja2jas.jetstoreapp.ru:443?type=xhttp&security=tls&sni=ja2jas.jetstoreapp.ru&fp=firefox&alpn=h2,http/1.1&path=/static/data/blocks/&host=ja2jas.jetstoreapp.ru&mode=packet-up&extra={"path":"/static/data/blocks/","xmux":{"cMaxLifetimeMs":0,"cMaxReuseTimes":"0","maxConcurrency":"16-32","maxConnections":0,"hKeepAlivePeriod":30,"hMaxRequestTimes":"600-900","hMaxReusableSecs":"1800-3000"},"uplinkHTTPMethod":"GET"}#🇩🇪 Германия
-vless://1fa7f1e5-5508-4aba-9c23-4702a057f09c@2.27.210.2:443?type=tcp&security=reality&pbk=Gc9_EFy9mw5UvB0EjeqcgTFJbwl7y5WxP4RbzN-IFXs&fp=qq&sni=www.yahoo.com&sid=e09533c2dc998499&flow=xtls-rprx-vision#🇱🇻 Латвия
-vless://58c77988-b2a0-4fa4-981b-55e81df0182b@japan2.griffinvpn.site:8444?type=xhttp&security=reality&pbk=UimHvesnl-2wLW4YRv_AsWpWD34IIaqhYlSiR9PsqEM&fp=edge&sni=one.one.one.one&sid=268e3fb4&path=/griffin-xhttp&mode=auto#🇯🇵 Япония
-vless://3474f38b-3857-4087-af08-76b82bc23620@freeshka.i-love-russia.online:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=Tm50a8xPW6cazNhgmTSHNbVfqaplvNSx0BQoJCGe3jU&fp=firefox&sni=freeshka.i-love-russia.online&sid=4aa753c327e7fd94&spx=%2F#🇳🇱 Нидерланды
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇭🇰 Гонконг
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇨🇦 Канада
-vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@tr1.h1cloud.net:25454?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=nss5rlVwri9PA-cTBOZy1hsXFxbZFNAajON2Iz-zPlQ&fp=chrome&sni=www.google.com&sid=521bef1d0d38a5ac#🇹🇷 Турция
-vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@178.248.236.77:62443?type=tcp&security=reality&pbk=IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4&fp=qq&sni=rutube.ru&sid=1f8c1a2e913d1f05&spx=%2F&flow=xtls-rprx-vision#🇺🇿 Узбекистан
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇰🇿 Казахстан
-hysteria2://58c77988-b2a0-4fa4-981b-55e81df0182b@alb1337.zaebalsanoproxyklinus.lol:27722/?sni=alb1337.zaebalsanoproxyklinus.lol&alpn=h3#🇦🇱 Албания
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇱🇺 Люксембург
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇨🇾 Кипр
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇮🇹 Италия
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇮🇳 Индия
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇩🇰 Дания
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇦🇪 Арабские Эмираты
-vless://1fa7f1e5-5508-4aba-9c23-4702a057f09c@45.150.66.30:443?type=tcp&security=reality&pbk=Gc9_EFy9mw5UvB0EjeqcgTFJbwl7y5WxP4RbzN-IFXs&fp=qq&sni=www.yahoo.com&sid=e09533c2dc998499&flow=xtls-rprx-vision#🇬🇧 Великобритания
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇸🇬 Сингапур
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇦🇹 Австрия
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇦🇺 Австралия
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇧🇷 Бразилия
-vless://1fa7f1e5-5508-4aba-9c23-4702a057f09c@2.27.105.144:443?type=tcp&security=reality&pbk=Gc9_EFy9mw5UvB0EjeqcgTFJbwl7y5WxP4RbzN-IFXs&fp=qq&sni=www.yahoo.com&sid=e09533c2dc998499&flow=xtls-rprx-vision#🇧🇬 Болгария
-vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@cdnros.jetstoreapp.ru:443?type=xhttp&security=tls&sni=cdnros.jetstoreapp.ru&fp=firefox&alpn=h2,http/1.1&path=/stream/api/segments/&host=cdnros.jetstoreapp.ru&mode=packet-up&extra={"path":"/stream/api/segments/","xmux":{"cMaxLifetimeMs":0,"cMaxReuseTimes":"0","maxConcurrency":"16-32","maxConnections":0,"hKeepAlivePeriod":30,"hMaxRequestTimes":"600-900","hMaxReusableSecs":"1800-3000"},"uplinkHTTPMethod":"GET"}#🇸🇪 Швеция
-vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@lt1.h1cloud.net:25047?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=PP_J27fuarANM2cCYC8wQkmcbddraaWxv-zx6eJyImg&fp=chrome&sni=www.google.com&sid=eb56c8264815021f#🇱🇹 Литва
-vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@78.17.74.14:6437?type=grpc&security=reality&pbk=pHQke94AM1SmUNRlA7CNyXL4dK9-O1mTZoNVJKVFTk0&fp=chrome&sni=tesla.com&sid=1dbf8a58bc15d4b0&serviceName=grpc#🇩🇪 Германия 2
-vless://3474f38b-3857-4087-af08-76b82bc23620@pl.i-love-russia.online:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=Tm50a8xPW6cazNhgmTSHNbVfqaplvNSx0BQoJCGe3jU&fp=firefox&sni=pl.i-love-russia.online&sid=4aa753c327e7fd94&spx=%2F#🇵🇱 Польша
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇧🇾 Беларусь
-vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@es1.h1cloud.net:25054?type=tcp&security=reality&pbk=hLzL74p283-HWtRYMm2o7yPfC8dxymOxx9PQE9QnzXA&fp=qq&sni=www.google.com&sid=374538b82d3be3f7&flow=xtls-rprx-vision#🇪🇸 Испания
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇨🇭 Швейцария
-vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@103.102.229.160:6437?type=grpc&security=reality&pbk=pHQke94AM1SmUNRlA7CNyXL4dK9-O1mTZoNVJKVFTk0&fp=chrome&sni=tesla.com&sid=1dbf8a58bc15d4b0&serviceName=grpc#🇷🇴 Румыния
-vless://3474f38b-3857-4087-af08-76b82bc23620@tr.i-love-russia.online:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=Tm50a8xPW6cazNhgmTSHNbVfqaplvNSx0BQoJCGe3jU&fp=firefox&sni=tr.i-love-russia.online&sid=4aa753c327e7fd94&spx=%2F#🇪🇪 Эстония
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇹🇭 Таиланд
-vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@185.173.147.30:6437?type=grpc&security=reality&pbk=pHQke94AM1SmUNRlA7CNyXL4dK9-O1mTZoNVJKVFTk0&fp=firefox&sni=tesla.com&sid=1dbf8a58bc15d4b0&serviceName=grpc#🇺🇸 США
-vless://0dde5a84-114c-494f-a699-ee7bad40d5f1@ventio.ferreo.sbs:443?type=tcp&security=reality&pbk=HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU&fp=firefox&sni=ventio.ferreo.sbs&sid=1067b23f928e7618&flow=xtls-rprx-vision#🇫🇷 Франция
-vless://3474f38b-3857-4087-af08-76b82bc23620@de.i-love-russia.online:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=Tm50a8xPW6cazNhgmTSHNbVfqaplvNSx0BQoJCGe3jU&fp=firefox&sni=de.i-love-russia.online&sid=4aa753c327e7fd94&spx=%2F#🇫🇮 Финляндия
-hysteria2://3474f38b-3857-4087-af08-76b82bc23620@de.i-love-russia.online:443?sni=de.i-love-russia.online#🇫🇮 Финляндия Hysteria
-hysteria2://3474f38b-3857-4087-af08-76b82bc23620@pl.i-love-russia.online:443/?sni=pl.i-love-russia.online&alpn=h3#🇵🇱 Польша | Hysteria
-hysteria2://3474f38b-3857-4087-af08-76b82bc23620@pl.i-love-russia.online:443?sni=pl.i-love-russia.online#🇵🇱 Польша Hysteria 2
-hysteria2://3474f38b-3857-4087-af08-76b82bc23620@tr.i-love-russia.online:443?sni=tr.i-love-russia.online#🇪🇪 Эстония Hysteria
-vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@116.206.95.113:6437?type=grpc&security=reality&pbk=pHQke94AM1SmUNRlA7CNyXL4dK9-O1mTZoNVJKVFTk0&fp=qq&sni=tesla.com&sid=1dbf8a58bc15d4b0&serviceName=grpc#🇷🇺 Россия
-hysteria2://3474f38b-3857-4087-af08-76b82bc23620@freeshka.i-love-russia.online:443?sni=freeshka.i-love-russia.online#🇳🇱 Нидерланды Hysteria
-hysteria2://caf47a37-e800-40cd-bcc3-79a3bed83c72@freeshka.i-love-russia.online:443/?sni=freeshka.i-love-russia.online&alpn=h3#🇳🇱 Нидерланды Hysteria 2
-vless://1fa7f1e5-5508-4aba-9c23-4702a057f09c@bob3.oslik.shop:443?type=xhttp&security=tls&sni=bob3.oslik.shop&fp=edge&alpn=h2,http/1.1&path=/api/uploadFile/&host=bob3.oslik.shop&mode=packet-up&extra={"xmux":{"cMaxLifetimeMs":300000,"cMaxReuseTimes":100,"maxConcurrency":"16-32","maxConnections":0,"hKeepAlivePeriod":30},"uplinkHTTPMethod":"GET"}#🇩🇪 Белые списки 1
-vless://1fa7f1e5-5508-4aba-9c23-4702a057f09c@obla.oslik.shop:443?type=xhttp&security=tls&sni=obla.oslik.shop&fp=edge&alpn=h2,http/1.1&path=/api/uploadFile/&host=obla.oslik.shop&mode=packet-up&extra={"xmux":{"cMaxLifetimeMs":300000,"cMaxReuseTimes":100,"maxConcurrency":"16-32","maxConnections":0,"hKeepAlivePeriod":30},"uplinkHTTPMethod":"GET"}#🇳🇱 Белые списки 2
-
-vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@2.26.128.74:443?type=tcp&security=reality&pbk=w88Ys8dVF9DuslGwUD05J9-FHNoAT9qmPysCvHiEmmg&fp=qq&sni=wombat.mycdn-me.ru&sid=1b40e7c2a1d8f635&spx=%2F&flow=xtls-rprx-vision#🇵🇰 Табулистан
+{
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cdnkas.jetstoreapp.ru",
+            "port": 443,
+            "users": [
+              {
+                "id": "13adfea4-3476-4b0f-a47e-d0b2cb896e5a",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "packet-up",
+          "host": "cdnkas.jetstoreapp.ru",
+          "path": "/api/v4/media/session/poll",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "128-256",
+              "maxConcurrency": "8-16",
+              "hKeepAlivePeriod": 30,
+              "hMaxRequestTimes": "600-1000",
+              "hMaxReusableSecs": "1800-3600"
+            },
+            "seqKey": "offset",
+            "headers": {
+              "Accept": "application/vnd.api+json, application/json, text/plain, */*",
+              "Pragma": "no-cache",
+              "Cache-Control": "no-cache",
+              "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+            },
+            "sessionKey": "media_sid",
+            "xPaddingKey": "q",
+            "seqPlacement": "query",
+            "uplinkDataKey": "X-Playback-Token",
+            "xPaddingBytes": "48-320",
+            "xPaddingMethod": "tokenish",
+            "sessionPlacement": "path",
+            "uplinkHTTPMethod": "GET",
+            "xPaddingObfsMode": true,
+            "xPaddingPlacement": "query",
+            "scMaxBufferedPosts": 64,
+            "scMaxEachPostBytes": "1536-6144",
+            "uplinkDataPlacement": "header",
+            "scMinPostsIntervalMs": "10-30",
+            "serverMaxHeaderBytes": 32768
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdnkas.jetstoreapp.ru",
+          "enableSessionResumption": false,
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "🇩🇪 Германия LTE | Обход глушилок"
+}
