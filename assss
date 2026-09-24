@@ -172,6 +172,4 @@ vless://31cec69f-576b-4328-92bd-61536e810592@201.7.25.208:443?type=tcp&security=
 hysteria2://31cec69f-576b-4328-92bd-61536e810592@46.8.209.74:23443?sni=disk.api-yandex.net&alpn=h3#🇪🇺 Европа Обход глушилок
 vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@178.248.236.77:62443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4&fp=qq&sni=rutube.ru&sid=1f8c1a2e913d1f05&spx=%2F#🇦🇷 Белые списки
 vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@178.248.236.77:62443?type=tcp&security=reality&pbk=IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4&fp=qq&sni=rutube.ru&sid=1f8c1a2e913d1f05&spx=%2F&flow=xtls-rprx-vision#🇮🇲 Белые списки 2 
-vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@195.82.146.182:6437?type=grpc&security=reality&pbk=pHQke94AM1SmUNRlA7CNyXL4dK9-O1mTZoNVJKVFTk0&fp=chrome&sni=tesla.com&sid=1dbf8a58bc15d4b0&serviceName=grpc#🇫🇲 Чехословакия
-vless://13adfea4-3476-4b0f-a47e-d0b2cb896e5a@31.77.247.0:6437?type=grpc&serviceName=grpc&security=reality&pbk=pHQke94AM1SmUNRlA7CNyXL4dK9-O1mTZoNVJKVFTk0&fp=qq&sni=tesla.com&sid=1dbf8a58bc15d4b0#🇵🇱 Польша Нейросети
 
