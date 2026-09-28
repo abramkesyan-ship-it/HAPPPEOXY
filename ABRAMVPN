@@ -1,2 +1,353 @@
-#profile-title: base64:0JzQvtGPINCf0L7QtNC/0LjRgdC60LA=
-vless://813u82hudh983ue8uxu821u8xn-djsidja-daidm
+{
+  "dns": {
+    "servers": [
+      "8.8.8.8",
+      "1.1.1.1"
+    ],
+    "queryStrategy": "UseIPv4"
+  },
+  "log": {
+    "loglevel": "warning"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "domain": [
+          "geosite:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "domain": [
+          "max.ru",
+          "domain:1c-bitrix.ru",
+          "domain:1c.ru",
+          "domain:1cfresh.com",
+          "domain:1cloud.ru",
+          "domain:1internet.tv",
+          "domain:2gis.ae",
+          "domain:2gis.am",
+          "domain:2gis.az",
+          "domain:2gis.by",
+          "domain:2gis.com",
+          "domain:2gis.com.cy",
+          "domain:2gis.cz",
+          "domain:2gis.ge",
+          "domain:2gis.kg",
+          "domain:2gis.kz",
+          "domain:2gis.ru",
+          "domain:2gis.tj",
+          "domain:2gis.ua",
+          "domain:2gis.uz",
+          "domain:47news.ru",
+          "domain:4meeting.me",
+          "domain:5ka.ru",
+          "domain:5post.market",
+          "domain:abr.ru",
+          "domain:aclub.ru",
+          "domain:adfox.ru",
+          "domain:admetrica.ru",
+          "domain:adygeya.ru",
+          "domain:aeroflot.ru",
+          "domain:alfa-bank.com",
+          "domain:alfa-bank.ru",
+          "domain:alfa-finance.com",
+          "domain:alfa-fx.com",
+          "domain:alfa-pc.com",
+          "domain:alfa-usa.com",
+          "domain:alfabank.com",
+          "domain:alfabank.ru",
+          "domain:alfafinance.biz",
+          "domain:alfafinance.ru",
+          "domain:alfafuture.com",
+          "domain:alfafuture.ru",
+          "domain:alfafx.com",
+          "domain:alfaleasing.ru",
+          "domain:alfaprivate.com",
+          "domain:alformacap.com",
+          "domain:alformacapital.com",
+          "domain:altai.ru",
+          "domain:amur.ru",
+          "domain:anytimeru.com",
+          "domain:arkhangelsk.ru",
+          "domain:x5q.ru",
+          "domain:xn----7sb7akeedqd.xn--p1ai",
+          "domain:xn--80aacoonefzg3am8b1fsb.xn--p1ai",
+          "domain:xn--80acgfbsl1azdqr.xn--p1ai",
+          "domain:xn--80ajghhoc2aj1c8b.xn--p1ai",
+          "domain:xn--90ab2c.xn--p1ai",
+          "domain:xn--90acagbhgpca7c8c7f.xn--p1ai",
+          "domain:xn--90aifd0aza.site",
+          "domain:xn--90aivcdt6dxbc.xn--p1ai",
+          "domain:xn--b1aew.xn--p1ai",
+          "domain:xn--d1acpjx3f.xn--p1ai",
+          "domain:ya.ru",
+          "domain:yads.tech",
+          "domain:yakutia.ru",
+          "domain:yamal.ru",
+          "domain:yandex",
+          "domain:yandex-bank.net",
+          "domain:yandex-team.ru",
+          "domain:yandex.aero",
+          "domain:yandex.az",
+          "domain:yandex.by",
+          "domain:yandex.cloud",
+          "domain:yandex.co.il",
+          "domain:yandex.com",
+          "domain:yandex.com.am",
+          "domain:yandex.com.ge",
+          "domain:yandex.com.ru",
+          "domain:yandex.com.tr",
+          "domain:yandex.com.ua",
+          "domain:yandex.de",
+          "domain:yandex.ee",
+          "domain:yandex.eu",
+          "domain:yandex.fi",
+          "domain:yandex.fr",
+          "domain:yandex.jobs",
+          "domain:yandex.kg",
+          "domain:yandex.kz",
+          "domain:yandex.lt",
+          "domain:yandex.lv",
+          "domain:yandex.md",
+          "domain:yandex.net",
+          "domain:yandex.org",
+          "domain:yandex.pl",
+          "domain:yandex.ru",
+          "domain:yandex.st",
+          "domain:yandex.sx",
+          "domain:yandex.tj",
+          "domain:yandex.tm",
+          "domain:yandex.tr",
+          "domain:yandex.ua",
+          "domain:yandex.uz",
+          "domain:yandexadexchange.net",
+          "domain:yandexcloud.net",
+          "domain:yandexcom.net",
+          "domain:yandexmetrica.com",
+          "domain:yandexwebcache.net",
+          "domain:yandexwebcache.org",
+          "domain:yaroslavl.ru",
+          "domain:yastat.net",
+          "domain:yastatic-net.ru",
+          "domain:yastatic.net",
+          "domain:yota.ru",
+          "domain:youla-web-static.mrgcdn.ru",
+          "domain:youla.io",
+          "domain:youla.ru",
+          "domain:yuzhno-sakhalinsk.ru",
+          "domain:zdrav10.ru",
+          "domain:zentotem.net",
+          "domain:ads.x5.ru",
+          "domain:aif.ru",
+          "domain:burgerkingrus.ru",
+          "domain:drive2.ru",
+          "domain:flypobeda.ru",
+          "domain:forbes.ru",
+          "domain:gismeteo.ru",
+          "domain:kontur.ru",
+          "domain:kontur.host",
+          "domain:motivtelecom.ru",
+          "domain:pervye.ru",
+          "domain:rambler-co.ru",
+          "domain:reg.ru",
+          "domain:reviews.2gis.com",
+          "domain:rg.ru",
+          "domain:ria.ru",
+          "domain:ruwiki.ru",
+          "domain:rustore.ru",
+          "domain:sirena-travel.ru",
+          "domain:sravni.ru",
+          "domain:t-j.ru",
+          "domain:tank-online.com",
+          "domain:tildaapi.com",
+          "domain:tns-counter.ru",
+          "domain:trvl.yandex.net",
+          "full:go.yandex",
+          "full:ru.ruwiki.ru",
+          "domain:api.oneme.ru",
+          "domain:fd.oneme.ru",
+          "domain:i.oneme.ru",
+          "domain:miniapps.max.ru",
+          "domain:sdk-api.apptracer.ru",
+          "domain:st.max.ru",
+          "domain:tracker-api.vk-analytics.ru"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "balancerTag": "bal_smart"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "bal_smart",
+        "selector": [
+          "regular"
+        ],
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "costs": [
+              {
+                "match": "regular",
+                "value": 0,
+                "regexp": false
+              }
+            ],
+            "maxRTT": "8s",
+            "expected": 1,
+            "baselines": [
+              "2s"
+            ]
+          }
+        },
+        "fallbackTag": "cand"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": true,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": true,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "cand",
+      "protocol": "hysteria",
+      "settings": {
+        "address": "46.8.208.40",
+        "port": 21443,
+        "version": 2
+      },
+      "streamSettings": {
+        "network": "hysteria",
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "31cec69f-576b-4328-92bd-61536e810592"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "disk.api-yandex.net",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h3"
+          ]
+        },
+        "finalmask": {
+          "quicParams": {
+            "debug": false,
+            "bbrProfile": "conservative",
+            "congestion": "bbr",
+            "maxIdleTimeout": 60,
+            "disablePathMTUDiscovery": false
+          }
+        }
+      }
+    },
+    {
+      "tag": "regular",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.229.221.31",
+            "port": 443,
+            "users": [
+              {
+                "id": "31cec69f-576b-4328-92bd-61536e810592",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "v1.segment.jj92U9QLrbxeLT3aEx9NSO8EsPWxVxVmXR1n0egevogYVm1EKLr7tutxlYkOk4nwMKXtf0LZ4bUeX4fBbks1Bpz6hudyNMRDwajvC40mAEA28b4F2LMqS8X4S8eeuqeQ0BADdq1jrQl1RAo01USGUbhcl05XXWTWd3j4X8TJYnC0mn3kYFY48tMbq9FGyYC0evXlPS43xDkUV2WlEIA9dBrGZuzF2B7eODbSbtltBGjYKSEPbUAatj6JgPz4S9zl8bKp4jdaMpvvXOKrRixuucEzq4fmyzpabmEyOxa4y33iS9Ctiqv3aTFt5ZlEqWQ1VarDBnUcvE0q56rRkM7B1AUmZMy6Es88iKz1GlVgGVbVI3yXqlAkCdE6CjmzYdoc4pMcULnZ7V79gvHqa6wkv0xysDovCG3XwqcKT5dQmvra0ILXXSz76bStrLc31SbsdilcKwiFIOPXc0hySvIqLRB59Q3GVVEKtlSo6r6E6M8mjGwaNQPTpuzE2VkMpybeMfNHHeBrKm3RvgAVOEBw3ATEPJnvRfkon3te5ZwB4cXbvoJzWtxoQJj3384CyJW11iiRqQR2bpwJsbTKFodTeL2Z8ZAplQvXuIyg3J84xmFqkY1M5WsyLojCNgIcq0J9.ts.dna=q9ggrISJ0aGXS3k9DfRW4DnDwBAJKYFNIfSbmbbAvLcqTjpFA0EkHSWsoZLX9I7yQNAG4awpIxfKfMoqxXPInsbNpPJ3BPcvP3dkkLuykf49tyWQMWT4nRb93xbyK2GXuy",
+          "mode": "gun"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "444f1617fbca.j.cloudfront.hls.ttvnw.net",
+          "fingerprint": "qq",
+          "pinnedPeerCertSha256": "70:A6:85:1D:05:58:25:4B:46:FC:FF:D4:01:40:AB:46:3B:5B:B6:0E:15:37:3B:8B:39:07:0B:87:89:27:C2:39"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "observatory": {
+    "probeUrl": "https://www.google.com/generate_204",
+    "probeInterval": "1m",
+    "subjectSelector": [
+      "cand",
+      "regular"
+    ],
+    "enableConcurrency": true
+  },
+  "remarks": "🇸🇪 Швеция Обход глушилок",
+  "meta": {
+    "serverDescription": "При глушении LTE/4G"
+  }
+}
