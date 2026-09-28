@@ -69,20 +69,6 @@
           "domain:alfa-pc.com",
           "domain:alfa-usa.com",
           "domain:alfabank.com",
-          "domain:alfabank.ru",
-          "domain:alfafinance.biz",
-          "domain:alfafinance.ru",
-          "domain:alfafuture.com",
-          "domain:alfafuture.ru",
-          "domain:alfafx.com",
-          "domain:alfaleasing.ru",
-          "domain:alfaprivate.com",
-          "domain:alformacap.com",
-          "domain:alformacapital.com",
-          "domain:altai.ru",
-          "domain:amur.ru",
-          "domain:anytimeru.com",
-          "domain:arkhangelsk.ru",
           "domain:x5q.ru",
           "domain:xn----7sb7akeedqd.xn--p1ai",
           "domain:xn--80aacoonefzg3am8b1fsb.xn--p1ai",
@@ -265,35 +251,35 @@
   "outbounds": [
     {
       "tag": "cand",
-      "protocol": "hysteria",
+      "protocol": "vless",
       "settings": {
-        "address": "46.8.208.40",
-        "port": 21443,
-        "version": 2
+        "vnext": [
+          {
+            "address": "xid44.guardora.pro",
+            "port": 1767,
+            "users": [
+              {
+                "id": "31cec69f-576b-4328-92bd-61536e810592",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
       },
       "streamSettings": {
-        "network": "hysteria",
-        "hysteriaSettings": {
-          "version": 2,
-          "auth": "31cec69f-576b-4328-92bd-61536e810592"
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "grpc",
+          "authority": "",
+          "mode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "disk.api-yandex.net",
-          "enableSessionResumption": false,
-          "fingerprint": "edge",
-          "alpn": [
-            "h3"
-          ]
-        },
-        "finalmask": {
-          "quicParams": {
-            "debug": false,
-            "bbrProfile": "conservative",
-            "congestion": "bbr",
-            "maxIdleTimeout": 60,
-            "disablePathMTUDiscovery": false
-          }
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "strm.yandex.net",
+          "publicKey": "E2nvxM9nHv276cZFT1TBhQhkeEEwTYEET8ml_Kgq8kg",
+          "shortId": "11f14f22a9111f",
+          "fingerprint": "qq"
         }
       }
     },
@@ -303,7 +289,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.229.221.31",
+            "address": "179.254.85.12",
             "port": 443,
             "users": [
               {
@@ -317,12 +303,12 @@
       "streamSettings": {
         "network": "grpc",
         "grpcSettings": {
-          "serviceName": "v1.segment.jj92U9QLrbxeLT3aEx9NSO8EsPWxVxVmXR1n0egevogYVm1EKLr7tutxlYkOk4nwMKXtf0LZ4bUeX4fBbks1Bpz6hudyNMRDwajvC40mAEA28b4F2LMqS8X4S8eeuqeQ0BADdq1jrQl1RAo01USGUbhcl05XXWTWd3j4X8TJYnC0mn3kYFY48tMbq9FGyYC0evXlPS43xDkUV2WlEIA9dBrGZuzF2B7eODbSbtltBGjYKSEPbUAatj6JgPz4S9zl8bKp4jdaMpvvXOKrRixuucEzq4fmyzpabmEyOxa4y33iS9Ctiqv3aTFt5ZlEqWQ1VarDBnUcvE0q56rRkM7B1AUmZMy6Es88iKz1GlVgGVbVI3yXqlAkCdE6CjmzYdoc4pMcULnZ7V79gvHqa6wkv0xysDovCG3XwqcKT5dQmvra0ILXXSz76bStrLc31SbsdilcKwiFIOPXc0hySvIqLRB59Q3GVVEKtlSo6r6E6M8mjGwaNQPTpuzE2VkMpybeMfNHHeBrKm3RvgAVOEBw3ATEPJnvRfkon3te5ZwB4cXbvoJzWtxoQJj3384CyJW11iiRqQR2bpwJsbTKFodTeL2Z8ZAplQvXuIyg3J84xmFqkY1M5WsyLojCNgIcq0J9.ts.dna=q9ggrISJ0aGXS3k9DfRW4DnDwBAJKYFNIfSbmbbAvLcqTjpFA0EkHSWsoZLX9I7yQNAG4awpIxfKfMoqxXPInsbNpPJ3BPcvP3dkkLuykf49tyWQMWT4nRb93xbyK2GXuy",
+          "serviceName": "v1.segment.CoED6DTJX7qqpaFHeZFqtxZaORbSkI4QxeF6Gczfup52y3xKtesK90khbWMq7h_-lIl62UWm06eybYZ1M6FaJpIReF9xqg6-m_dKU1YEWCyLiC2rZVrgCwRXum0DT9a7Dstfx8R_dcJLSMKJsrFC8UClKuJ0B75zyyhGqlbqqJa-TKtAOPIsFSqCnTCO5kgeWkzF9FU2uwzdSIWY7XvTtLlNWPUGhLJ7s4_mGqEdnCpc9zppbThJ2zHFSNLGjCb6N_SMA__CdyZfXNsYoDD-6ndzmGcOFElW2bmta7iMKOhvGNEHOnld_4H81KLZllAIanOEORpXxlmtJqK-zb_BcPnPkWKJwTxjJ3OzHjvC2qXsUmJMNfMH3sonrbznb6ZyzPdRerpMU9LZQub9uz9gQ2H7NLOaAnZ1Vc7XxsHsxIGwIlJzTgEOUGxvw3qj63VLOp8fnvBxlUYJC5SA_A4o_n7Uvig-_8VhyhDpsbatyuDv4BoCpv-oNuj6U4IYajZDPbmi8hoMueA90UMsfwvVLGfYIAEqCWV1LXdlc3QtMjCGEA.ts.dna=Cm74xcjZRvlJ8j4uyH8gUP6Y-9_3Z1K5gnOscHMivrto7HST_AySpzuCoSGMaJUGYC3YkJts_wUGc6ONi55ZphDFRo1mLmOrnrnIRiSlVRt_eicdhD46rhK7QYHTUl5xDDkoOQjTCOUUkAUNN4Gf2hoMKV6-bvMYkmob9CC6IAEqCWV1LXdlc3QtMjCGEA",
           "mode": "gun"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "444f1617fbca.j.cloudfront.hls.ttvnw.net",
+          "serverName": "qkxea3ezmb.j.cloudfront.hls.ttvnw.net",
           "fingerprint": "qq",
           "pinnedPeerCertSha256": "70:A6:85:1D:05:58:25:4B:46:FC:FF:D4:01:40:AB:46:3B:5B:B6:0E:15:37:3B:8B:39:07:0B:87:89:27:C2:39"
         }
@@ -346,7 +332,7 @@
     ],
     "enableConcurrency": true
   },
-  "remarks": "🇸🇪 ⚡ LTE Швеция 1",
+  "remarks": "🇫🇷 Франция Обход глушилок",
   "meta": {
     "serverDescription": "При глушении LTE/4G"
   }
