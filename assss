@@ -152,7 +152,443 @@ vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@188.72.110.24:443?type=xhttp&securi
 vless://f4722879-9a4d-4ac2-a566-e44c5f37c32e@188.72.103.4:443?type=xhttp&security=tls&sni=rootcdn.jetstoreapp.ru&alpn=h2&fp=firefox&path=%2Fapi%2Fv4%2Fmedia%2Fsession%2Fpoll&host=rootcdn.jetstoreapp.ru&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%22128-256%22%2C%22maxConcurrency%22%3A%228-16%22%2C%22hKeepAlivePeriod%22%3A30%2C%22hMaxRequestTimes%22%3A%22600-1000%22%2C%22hMaxReusableSecs%22%3A%221800-3600%22%7D%2C%22seqKey%22%3A%22offset%22%2C%22headers%22%3A%7B%22Accept%22%3A%22application%2Fvnd.api%2Bjson%2C%20application%2Fjson%2C%20text%2Fplain%2C%20*%2F*%22%2C%22Pragma%22%3A%22no-cache%22%2C%22Cache-Control%22%3A%22no-cache%22%2C%22Accept-Language%22%3A%22ru-RU%2Cru%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7%22%7D%2C%22sessionKey%22%3A%22media_sid%22%2C%22xPaddingKey%22%3A%22q%22%2C%22seqPlacement%22%3A%22query%22%2C%22uplinkDataKey%22%3A%22X-Playback-Token%22%2C%22xPaddingBytes%22%3A%2248-320%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22sessionPlacement%22%3A%22path%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingPlacement%22%3A%22query%22%2C%22scMaxBufferedPosts%22%3A64%2C%22scMaxEachPostBytes%22%3A%221536-6144%22%2C%22uplinkDataPlacement%22%3A%22header%22%2C%22scMinPostsIntervalMs%22%3A%2210-30%22%2C%22serverMaxHeaderBytes%22%3A32768%7D&encryption=none#🇳🇱 Нидерланды Обход глушилок
 vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@178.248.236.77:62443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4&fp=qq&sni=rutube.ru&sid=1f8c1a2e913d1f05&spx=%2F#🇦🇷 Белые списки
 vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@178.248.236.77:62443?type=tcp&security=reality&pbk=IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4&fp=qq&sni=rutube.ru&sid=1f8c1a2e913d1f05&spx=%2F&flow=xtls-rprx-vision#🇮🇲 Белые списки 2
-vless://e7bf2b59-1797-4ec3-b046-90741f7c3ad2@178.248.236.77:62443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=rutube.ru&pbk=IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4&sid=1f8c1a2e913d1f05&spx=%2F&fp=qq#Tier3-Rutube
+{
+  "remarks": "🇩🇪 Белые списки 🧶",
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "8.8.8.8",
+      "8.8.4.4"
+    ],
+    "queryStrategy": "UseIPv4"
+  },
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": true,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "entry-tier2",
+      "listen": "127.0.0.1",
+      "port": 10801,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "127.0.0.1",
+        "port": 0,
+        "network": "tcp,udp"
+      }
+    },
+    {
+      "tag": "entry-tier3",
+      "listen": "127.0.0.1",
+      "port": 10802,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "127.0.0.1",
+        "port": 0,
+        "network": "tcp,udp"
+      }
+    }
+  ],
+  "observatory": {
+    "subjectSelector": [
+      "p1-",
+      "tier2-",
+      "tier3-"
+    ],
+    "probeUrl": "http://connectivitycheck.gstatic.com/generate_204",
+    "probeInterval": "1m",
+    "enableConcurrency": true
+  },
+  "outbounds": [
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    },
+    {
+      "tag": "loop_to_tier2",
+      "protocol": "loopback",
+      "settings": {
+        "inboundTag": "entry-tier2"
+      }
+    },
+    {
+      "tag": "loop_to_tier3",
+      "protocol": "loopback",
+      "settings": {
+        "inboundTag": "entry-tier3"
+      }
+    },
+    {
+      "tag": "p1-germany-1-b6OtHD6hxO",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "2.26.135.231",
+            "port": 443,
+            "users": [
+              {
+                "id": "e7bf2b59-1797-4ec3-b046-90741f7c3ad2",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "serverName": "promo-digital.wb.ru",
+          "shortId": "a1f9c0e21d7b6485",
+          "publicKey": "hO2ivrVA9pHjOiR3E_mpvBA8Vya5lrks-jfnla2bBHQ",
+          "fingerprint": "qq",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "p1-frda-M0iOvVnD5F",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "2.26.129.2",
+            "port": 443,
+            "users": [
+              {
+                "id": "e7bf2b59-1797-4ec3-b046-90741f7c3ad2",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "serverName": "stream.indigo.ru",
+          "shortId": "5a8e1a04f3d92b67",
+          "publicKey": "gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE",
+          "fingerprint": "qq",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "p1-fi+-nSyZtkzwIq",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "2.26.128.79",
+            "port": 443,
+            "users": [
+              {
+                "id": "e7bf2b59-1797-4ec3-b046-90741f7c3ad2",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "serverName": "emaar.ru",
+          "shortId": "1b40e7c2a1d8f635",
+          "publicKey": "w88Ys8dVF9DuslGwUD05J9-FHNoAT9qmPysCvHiEmmg",
+          "fingerprint": "qq",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "tier2-ttt-VxFLqyIEjJ",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "91.215.43.168",
+            "port": 443,
+            "users": [
+              {
+                "id": "e7bf2b59-1797-4ec3-b046-90741f7c3ad2",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "xhttpSettings": {
+          "mode": "stream-up",
+          "host": "pic.rtbcdn.ru",
+          "path": "/xhttp",
+          "xmux": {
+            "cMaxReuseTimes": 0,
+            "maxConcurrency": 6,
+            "maxConnections": 0,
+            "hKeepAlivePeriod": 20,
+            "hMaxRequestTimes": 0,
+            "hMaxReusableSecs": 0
+          },
+          "xPaddingBytes": "100-1000"
+        },
+        "tlsSettings": {
+          "serverName": "pic.rtbcdn.ru",
+          "alpn": [
+            "http/1.1",
+            "h2"
+          ],
+          "fingerprint": "edge",
+          "pinnedPeerCertSha256": "79da98f9488cd8a0b38128a1b4f9de0e7a15e42e8d82be2416354e7a72cc5d01"
+        }
+      }
+    },
+    {
+      "tag": "tier3-mt-9tcaLxLEaJ",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "178.248.236.77",
+            "port": 62443,
+            "users": [
+              {
+                "id": "e7bf2b59-1797-4ec3-b046-90741f7c3ad2",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "serverName": "rutube.ru",
+          "shortId": "1f8c1a2e913d1f05",
+          "publicKey": "IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4",
+          "fingerprint": "qq",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "tier3-cu2-HxBZU7yQ8q",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "178.248.236.77",
+            "port": 62443,
+            "users": [
+              {
+                "id": "e7bf2b59-1797-4ec3-b046-90741f7c3ad2",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "realitySettings": {
+          "serverName": "rutube.ru",
+          "shortId": "1f8c1a2e913d1f05",
+          "publicKey": "IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4",
+          "fingerprint": "qq",
+          "spiderX": "/"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "domain": [
+          "domain:ru",
+          "domain:su",
+          "domain:xn--p1ai",
+          "domain:moscow",
+          "domain:ya.cc",
+          "domain:yandex.com",
+          "domain:yandex.net",
+          "domain:yango.com",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:mvk.com",
+          "domain:mycdn.me",
+          "domain:my.com",
+          "domain:my.games",
+          "domain:ok.me",
+          "domain:kaspersky.com",
+          "domain:ozon.com",
+          "domain:ozon.by",
+          "domain:ozon.kz",
+          "domain:wildberries.by",
+          "domain:wildberries.kz",
+          "domain:2gis.com",
+          "domain:magnit.com",
+          "domain:fix-price.com",
+          "domain:x5.tech",
+          "domain:megafon.com",
+          "domain:moex.com",
+          "domain:okko.tv",
+          "domain:okko.sport",
+          "domain:boosty.to",
+          "domain:lenta.com",
+          "domain:meduza.io",
+          "domain:premier.one",
+          "domain:hh.by",
+          "domain:hh.kz",
+          "domain:mosmetro.tech",
+          "domain:avs.io"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "socks-in",
+          "http-in",
+          "socks",
+          "http",
+          "tun-in"
+        ],
+        "network": "tcp,udp",
+        "balancerTag": "lb_ping"
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "entry-tier2"
+        ],
+        "balancerTag": "lb_tier2"
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "entry-tier3"
+        ],
+        "balancerTag": "lb_tier3"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "lb_ping",
+        "selector": [
+          "p1-"
+        ],
+        "fallbackTag": "loop_to_tier2",
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "maxRTT": "5s",
+            "cost_step": 0
+          }
+        }
+      },
+      {
+        "tag": "lb_tier2",
+        "selector": [
+          "tier2-"
+        ],
+        "fallbackTag": "loop_to_tier3",
+        "strategy": {
+          "type": "leastLoad"
+        }
+      },
+      {
+        "tag": "lb_tier3",
+        "selector": [
+          "tier3-"
+        ],
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "maxRTT": "15s",
+            "cost_step": 0
+          }
+        }
+      }
+    ]
+  },
+  "meta": {
+    "routingTags": [
+      "universal"
+    ]
+  }
+}
 
 
 
